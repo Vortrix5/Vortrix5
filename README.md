@@ -9,7 +9,7 @@
 
 
 
-## 💡 Projects
+## 💡 Exciting Projects
 
 - 📚  [![WeStand](https://img.shields.io/badge/WeStand-2f2f2f?style=for-the-badge)](https://github.com/Vortrix5/westand) : A feature-packed online web course platform for beginners, built using ReactJS and featuring a built-in experimental content management system (CMS) for previewing website features.
  
