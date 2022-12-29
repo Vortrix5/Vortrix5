@@ -4,7 +4,7 @@
 <a href="https://profile.codersrank.io/user/vortrix5">
   <img src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=Vortrix5&badges=1&show-avatar=false&width=200&style=--badge-bg-color:%23151515;--badge-text-color:%23fff;--bg-color:%23151515;--border-radius:5px" height=300 alt="CoderRank Summary Widget" align="right" />
  </a>
-<p align="left" >I'm Amine Zouaoui, a student at the South Mediterranean School 🏫. I'm passionate about digital learning systems, artificial intelligence, and competitive programming 🤖. I love working on front-end web development projects and Discord bots 💻. I'm currently 19 years old 🎂 and am always looking to learn new things 🤓, particularly supervised machine learning, cloud communication, and project management.</p>
+<p align="left" >I'm <b>Amine Zouaoui</b>, a student at the South Mediterranean School 🏫. I'm passionate about digital learning systems, artificial intelligence, and competitive programming 🤖. I love working on front-end web development projects and Discord bots 💻. I'm currently 19 years old 🎂 and am always looking to learn new things 🤓, particularly supervised machine learning, cloud engineering, and project management.</p>
 
 
 
