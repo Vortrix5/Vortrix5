@@ -20,12 +20,15 @@
 
 ## 🚧 Current Project
 
-I am currently working on a Discord bot called **Wizard Bot** using Discord.js that uses the OpenAI API and the Davinci-003 model. The bot allows users to communicate with it directly, either through text or through voice using transcribers and TTS conversions.
+I am currently working on a Discord bot called **[Wizard Bot](https://github.com/Vortrix5/discord-ai-bot)** using Discord.js that uses the OpenAI API and the Davinci-003 model. The bot allows users to communicate with it directly, either through text or through voice using transcribers and TTS conversions. 
 
 ## 📊 GitHub Stats
 
 <div align="center">  
   <a href="https://github.com/anuraghazra/github-readme-stats"> 
-<img  src="https://github-readme-stats.vercel.app/api?username=Vortrix5&&show_icons=true&theme=dark"/>
+<img  src="https://github-readme-stats.vercel.app/api?username=Vortrix5&&show_icons=true&theme=dark" height=195 />
+  </a>
+    <a href="https://github.com/anuraghazra/github-readme-stats">
+<img  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vortrix5&theme=dark" height=195/>
   </a>
   </div>
