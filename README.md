@@ -9,9 +9,9 @@
 
 ## 💡 Exciting Projects
 
-- 📚  [![WeStand](https://img.shields.io/badge/WeStand-2f2f2f?style=for-the-badge)](https://github.com/Vortrix5/westand) : A feature-packed online web course platform for beginners, built using ReactJS and featuring a built-in experimental content management system (CMS) for previewing website features.
+- 🌍  [![Demmy](https://img.shields.io/badge/Demmy-2f2f2f?style=for-the-badge)](https://github.com/Vortrix5/demmy) : A feature-packed online web course platform for beginners, built using ReactJS and featuring a built-in experimental content management system (CMS) for previewing website features.
  
-- 🌍  [![Demmy](https://img.shields.io/badge/Demmy-2f2f2f?style=for-the-badge)](https://github.com/Vortrix5/demmy) : A sustainable development goals (SDGs) educational platform that helps spread awareness about these goals and their importance in daily life. This award-winning project features a built-in chatting forum for communities, a kids section with targeted mini-stories, and educative games. Built using ReactJS and Firebase.
+- 📚  [![WeStand](https://img.shields.io/badge/WeStand-2f2f2f?style=for-the-badge)](https://github.com/Vortrix5/westand) : A sustainable development goals (SDGs) educational platform that helps spread awareness about these goals and their importance in daily life. This award-winning project features a built-in chatting forum for communities, a kids section with targeted mini-stories, and educative games. Built using ReactJS and Firebase.
  
 - 🩸  [![WeShare](https://img.shields.io/badge/WeShare-2f2f2f?style=for-the-badge)](https://github.com/Vortrix5/weshare) : An awareness platform highlighting the importance of blood and organ donation around the world. Built using Semantic-UI and ReactJS for a hackathon project.
 
