@@ -3,7 +3,13 @@
 <a href="https://profile.codersrank.io/user/vortrix5">
   <img src="https://cr-ss-service.azurewebsites.net/api/ScreenShot?widget=summary&username=Vortrix5&badges=1&show-avatar=false&width=200&style=--badge-bg-color:%23151515;--badge-text-color:%23fff;--bg-color:%23151515;--border-radius:5px" height=300 alt="CoderRank Summary Widget" align="right" />
  </a>
-<p align="left" >I'm <b>Amine Zouaoui</b>, a student and a passionate about digital learning systems, artificial intelligence, and competitive programming 🤖. I love working on front-end web development projects and Discord bots 💻. I am always looking to learn new things 🤓, particularly supervised machine learning, cloud engineering, and project management.</p>
+<p align="left" >
+<ul>
+<li>I'm <b>Amine</b>, a student and a passionate about artificial intelligence, and competitive programming 🤖. </li>
+<li>I love working on front-end development projects and Discord bots 💻. </li>
+<li>I am always looking to learn new things 🤓. </li>
+</ul>
+</p>
 
 [![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://vortrix.live) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=appveyor&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amine-zouaoui-753919166/) [![CoderRank](https://img.shields.io/badge/CodersRank-67A4AC?style=for-the-badge&logo=CodersRank&logoColor=white)](https://profile.codersrank.io/user/vortrix5) [![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/AmineZouaoui) [![Spotify](https://img.shields.io/badge/-Spotify-2DB394?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/277gamby5iblyr31sp26xe1kg?si=27011cb4d3c84bed)
 
