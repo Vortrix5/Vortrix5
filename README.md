@@ -11,7 +11,7 @@
 </ul>
 </p>
 
-[![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://vortrix.live) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=appveyor&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amine-zouaoui-753919166/) [![CoderRank](https://img.shields.io/badge/CodersRank-67A4AC?style=for-the-badge&logo=CodersRank&logoColor=white)](https://profile.codersrank.io/user/vortrix5) [![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/AmineZouaoui) [![Spotify](https://img.shields.io/badge/-Spotify-2DB394?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/277gamby5iblyr31sp26xe1kg?si=27011cb4d3c84bed)
+[![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://www.vortrix.live) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=appveyor&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amine-zouaoui-753919166/) [![CoderRank](https://img.shields.io/badge/CodersRank-67A4AC?style=for-the-badge&logo=CodersRank&logoColor=white)](https://profile.codersrank.io/user/vortrix5) [![HackerRank](https://img.shields.io/badge/-Hackerrank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white)](https://www.hackerrank.com/AmineZouaoui) [![Spotify](https://img.shields.io/badge/-Spotify-2DB394?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/277gamby5iblyr31sp26xe1kg?si=27011cb4d3c84bed)
 
 ## 💡 Exciting Projects
 
