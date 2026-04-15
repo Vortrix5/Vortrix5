@@ -66,9 +66,8 @@ Software Engineering student at MedTech (SMU) · Full Stack Developer · ML/AI E
 
 <div align="center">
 
-| | |
-|---|---|
-| ![Stats](https://github-readme-stats.vercel.app/api?username=Vortrix5&show_icons=true&hide_border=true&theme=dark) | ![Streak](https://streak-stats.demolab.com?user=Vortrix5&hide_border=true&theme=dark) |
+![Stats](https://github-readme-stats.vercel.app/api?username=Vortrix5&show_icons=true&hide_border=true&theme=dark)
+![Streak](https://streak-stats.demolab.com?user=Vortrix5&hide_border=true&theme=dark)
 
 ![Snake](https://github.com/7oSkaaa/7oSkaaa/blob/output/github-contribution-grid-snake.svg?)
 
