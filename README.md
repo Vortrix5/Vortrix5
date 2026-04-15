@@ -4,7 +4,7 @@ Software Engineering student at MedTech (SMU) · Full Stack Developer · ML/AI E
 
 ## What I'm working on
 
-- **Building** production features at BYSUR across a full TypeScript/Python stack
+- **Building** production features across a full TypeScript/Python stack
 - **Exploring** local-first AI systems, RAG pipelines, and multimodal retrieval
 - **Studying** distributed systems and cloud-native architectures
 
