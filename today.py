@@ -14,7 +14,7 @@ sys.setrecursionlimit(5000)
 
 HEADERS = {'authorization': 'token ' + os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME']
-QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0, 'top_languages': 0}
+QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0, 'top_languages': 0, 'all_commits': 0}
 
 
 def daily_readme(birthday):
@@ -403,6 +403,33 @@ def commit_counter(comment_size):
     return total_commits
 
 
+def all_commits(start_year):
+    """
+    Uses GitHub's GraphQL contributionsCollection to count commit contributions across ALL
+    repositories the user has contributed to (owned, organization, and collaborator), summed
+    per calendar year since the account was created. restrictedContributionsCount captures the
+    user's activity in private repos the token can't read in detail. This reflects total work
+    far better than counting commits only in owned repos.
+    """
+    total = 0
+    this_year = datetime.datetime.today().year
+    for year in range(start_year, this_year + 1):
+        query_count('all_commits')
+        query = '''
+        query ($login: String!, $from: DateTime!, $to: DateTime!) {
+            user(login: $login) {
+                contributionsCollection(from: $from, to: $to) {
+                    totalCommitContributions
+                    restrictedContributionsCount
+                }
+            }
+        }'''
+        variables = {'login': USER_NAME, 'from': f'{year}-01-01T00:00:00Z', 'to': f'{year}-12-31T23:59:59Z'}
+        cc = simple_request(all_commits.__name__, query, variables).json()['data']['user']['contributionsCollection']
+        total += cc['totalCommitContributions'] + cc['restrictedContributionsCount']
+    return total
+
+
 def user_getter(username):
     """
     Returns the account ID and creation time of the user
@@ -486,7 +513,7 @@ if __name__ == '__main__':
 
     total_loc, loc_time = perf_counter(loc_query, ['OWNER'], 7)
     formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
-    commit_data, commit_time = perf_counter(commit_counter, 7)
+    commit_data, commit_time = perf_counter(all_commits, int(acc_date[:4]))
     star_data, star_time = perf_counter(graph_repos_stars, 'stars', ['OWNER'])
     repo_data, repo_time = perf_counter(graph_repos_stars, 'repos', ['OWNER'])
     contrib_data, contrib_time = perf_counter(graph_repos_stars, 'repos', ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
