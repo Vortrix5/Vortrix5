@@ -5,6 +5,11 @@ import os
 from lxml import etree
 import time
 import hashlib
+import sys
+
+# Owned repos that are large forks can have very deep commit histories; recursive_loc()
+# adds a frame per 100-commit page, so raise the default 1000-frame limit as a safety net.
+sys.setrecursionlimit(5000)
 
 
 HEADERS = {'authorization': 'token ' + os.environ['ACCESS_TOKEN']}
@@ -181,7 +186,7 @@ def loc_query(owner_affiliation, comment_size=0, force_cache=False, cursor=None,
     query = '''
     query ($owner_affiliation: [RepositoryAffiliation], $login: String!, $cursor: String) {
         user(login: $login) {
-            repositories(first: 60, after: $cursor, ownerAffiliations: $owner_affiliation) {
+            repositories(first: 60, after: $cursor, ownerAffiliations: $owner_affiliation, isFork: false) {
             edges {
                 node {
                     ... on Repository {
